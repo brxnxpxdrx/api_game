@@ -20,3 +20,11 @@ model User {
   nick  String?
   password String
 }
+
+model Card {
+  id String @id @default(auto()) @map("_id) @db.ObjectId
+  name : String? @unique
+  image : String?
+  description : String?
+  
+}
