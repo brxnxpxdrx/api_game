@@ -1,14 +1,18 @@
 {
   "dependencies": {
+    "@prisma/client": "^6.14.0",
     "express": "^5.1.0"
   },
   "name": "tec-now-yo",
   "version": "1.0.0",
   "description": "\"# api_game\" \r \"# api_game\" \r \"# api_game\" \r \"# api_game\"",
   "main": "server.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prisma": "^6.14.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
     "start": "node server.js"
   },
   "repository": {
