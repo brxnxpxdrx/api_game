@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "name": "tec-now-yo",
+  "version": "1.0.0",
+  "description": "\"# api_game\" \r \"# api_game\" \r \"# api_game\" \r \"# api_game\"",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brxnxpxdrx/api_game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/brxnxpxdrx/api_game/issues"
+  },
+  "homepage": "https://github.com/brxnxpxdrx/api_game#readme"
+}
